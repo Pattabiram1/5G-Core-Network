@@ -66,14 +66,15 @@ This repository contains a complete simulation of a **5G Core Network** built in
 Assign these IPs to your local network interface (use `ip a` to check interface name):
 
 ```bash
-sudo ip addr add 192.168.70.101/24 dev <NW Interface>  # SMF
-sudo ip addr add 192.168.70.102/24 dev <NW Interface>  # UPF
-sudo ip addr add 192.168.70.103/24 dev <NW Interface>  # AMF
-sudo ip addr add 192.168.70.104/24 dev <NW Interface>  # AUSF
-sudo ip addr add 192.168.70.105/24 dev <NW Interface>  # UDM
-sudo ip addr add 192.168.70.106/24 dev <NW Interface>  # NRF
-sudo ip addr add 192.168.70.107/24 dev <NW Interface>  # gNB
-sudo ip addr add 192.168.70.108/24 dev <NW Interface>  # UE
+sudo ip addr add 192.168.1.101/24 dev <NW Interface>
+sudo ip addr add 192.168.1.102/24 dev <NW Interface>
+sudo ip addr add 192.168.1.103/24 dev <NW Interface>
+sudo ip addr add 192.168.1.104/24 dev <NW Interface>
+sudo ip addr add 192.168.1.105/24 dev <NW Interface>
+sudo ip addr add 192.168.1.106/24 dev <NW Interface>
+sudo ip addr add 192.168.1.107/24 dev <NW Interface>
+sudo ip addr add 192.168.1.100/24 dev <NW Interface>
+sudo ip addr add 192.168.1.2/24 dev <NW Interface>
 ```
 
 Make them persistent in `/etc/netplan/01-netcfg.yaml`.
