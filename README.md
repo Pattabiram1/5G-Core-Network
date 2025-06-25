@@ -1,8 +1,4 @@
-# 5G-Core-Network
-Restful-api Based 5G Core Network with Minimal Nodes
-
-
-# 📡 5G Core Network Simulation (Ubuntu-Based)
+# 📡 5G Core Network Simulation (Restapi-Based)
 
 This repository contains a complete simulation of a **5G Core Network** built in **Python** using SCTP, HTTPS REST APIs, and SQLite. The project models essential 5G control and user plane behavior, enabling registration, authentication, session management, and data transfer. The **Data Network (DN)** is simulated using Google's public DNS server (8.8.8.8).
 
